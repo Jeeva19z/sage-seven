@@ -1,48 +1,197 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Contact Us | Sage Seven Aesthetics</title><link rel="stylesheet" href="style.css">
-<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet"></head><body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Contact Us | Sage Seven Aesthetics</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="Sage Seven home">
+          <span class="brand-symbol">♧</span>
+          <span
+            ><strong>SAGE SEVEN</strong
+            ><small>AESTHETICS &amp; ACADEMY</small></span
+          >
+        </a>
+        <button class="menu-toggle" aria-label="Open menu">☰</button>
+        <nav class="main-nav">
+          <a href="about.html">About</a>
+          <div class="dropdown">
+            <button class="dropdown-toggle">
+              Treatments <span><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="dropdown-menu">
+              <a href="mole-skin-tag-removal-v1.html"
+                >Mole &amp; Skin Tag Removal</a
+              >
+              <a href="rf-skin-tightening.html">RF Skin Tightening</a>
+            </div>
+          </div>
+          <a href="contact.html">Contact us</a>
+        </nav>
+      </div>
+    </header>
 
-<header class="site-header">
-  <div class="container nav-wrap">
-    <a class="brand" href="index.html" aria-label="Sage Seven home">
-      <span class="brand-symbol">♧</span>
-      <span><strong>SAGE SEVEN</strong><small>AESTHETICS &amp; ACADEMY</small></span>
-    </a>
-    <button class="menu-toggle" aria-label="Open menu">☰</button>
-    <nav class="main-nav">
-      <a href="about.html">About</a>
-      <div class="dropdown">
-        <button class="dropdown-toggle">Treatments <span>⌄</span></button>
-        <div class="dropdown-menu">
-          <a href="rf-skin-tightening.html">RF Skin Tightening</a>
-          <a href="mole-skin-tag-removal.html">Mole &amp; Skin Tag Removal</a>
+    <main>
+      <section class="page-hero">
+        <div class="container" data-aos="fade-up">
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h1>Contact <em>Us.</em></h1>
+          <p>
+            Have a question or want to begin your skin and hair care journey?
+            Our team is here to help.
+          </p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container contact-grid">
+          <div data-aos="fade-right">
+            <p class="eyebrow">REACH US</p>
+            <h2>Let's start your<br /><em>care journey.</em></h2>
+            <div class="contact-list">
+              <div class="contact-item">
+                <span class="symbol">☎</span>
+                <p>+91 99400 04602<br />+91 99400 04608</p>
+              </div>
+              <div class="contact-item">
+                <span class="symbol">⌖</span>
+                <p>
+                  No: 55/50, Lakshmi Talkies Road,<br />Shenoy Nagar, Chennai -
+                  600030.
+                </p>
+              </div>
+              <div class="contact-item">
+                <span class="symbol">◷</span>
+                <p>Monday – Saturday<br />10:00 AM – 8:00 PM</p>
+              </div>
+            </div>
+          </div>
+         <form class="contact-form" data-aos="fade-left" id="contactForm">
+  <label>
+    Name
+    <input required id="name" placeholder="Your name" />
+  </label>
+
+  <label>
+    Select Treatment
+    <select required id="treatment">
+      <option value="">Choose a treatment</option>
+      <option>RF Skin Tightening</option>
+      <option>Mole & Skin Tag Removal</option>
+      <option>General Consultation</option>
+    </select>
+  </label>
+
+  <label>
+    Contact No
+    <input required type="tel" id="phone" placeholder="+91" />
+  </label>
+
+  <label>
+    Email ID
+    <input type="email" id="email" placeholder="you@example.com" />
+  </label>
+
+  <label>
+    Message
+    <textarea
+      rows="3"
+      id="message"
+      placeholder="How can we help?"
+    ></textarea>
+  </label>
+
+  <button class="btn btn-primary" type="submit">
+    Submit ↗
+  </button>
+
+  <p class="form-message"></p>
+</form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="brand-symbol">♧</div>
+          <strong>SAGE SEVEN</strong>
+          <small>AESTHETICS &amp; ACADEMY</small>
+          <p>Modern aesthetics.<br />Meaningful confidence.</p>
+        </div>
+        <div>
+          <h4>Contact us</h4>
+          <p>+91 99400 04602<br />+91 99400 04608</p>
+        </div>
+        <div>
+          <h4>Location</h4>
+          <p>
+            No. 55/50, Lakshmi Talkies Road,<br />Shenoy Nagar, Chennai -
+            600030.
+          </p>
+        </div>
+        <div>
+          <h4>Reach us</h4>
+          <div class="socials">
+            <a href="#">◎</a><a href="#">f</a><a href="#">◉</a>
+          </div>
         </div>
       </div>
-      <a href="contact.html">Contact us</a>
-    </nav>
-  </div>
-</header>
+      <div class="container copyright">
+        © 2026 Sage Seven Aesthetics &amp; Academy. All rights reserved.
+      </div>
+    </footer>
 
-<main>
-<section class="page-hero"><div class="container" data-aos="fade-up"><p class="eyebrow">LET'S CONNECT</p><h1>Contact <em>Us.</em></h1><p>Have a question or want to begin your skin and hair care journey? Our team is here to help.</p></div></section>
-<section class="section"><div class="container contact-grid"><div data-aos="fade-right"><p class="eyebrow">REACH US</p><h2>Let's start your<br><em>care journey.</em></h2><div class="contact-list"><div class="contact-item"><span class="symbol">☎</span><p>+91 99400 04602<br>+91 99400 04608</p></div><div class="contact-item"><span class="symbol">⌖</span><p>No: 55/50, Lakshmi Talkies Road,<br>Shenoy Nagar, Chennai - 600030.</p></div><div class="contact-item"><span class="symbol">◷</span><p>Monday – Saturday<br>10:00 AM – 8:00 PM</p></div></div></div><form class="contact-form" data-aos="fade-left"><label>Name<input required placeholder="Your name"></label><label>Select Treatment<select required><option value="">Choose a treatment</option><option>RF Skin Tightening</option><option>Mole & Skin Tag Removal</option><option>General Consultation</option></select></label><label>Contact No<input required type="tel" placeholder="+91"></label><label>Email ID<input type="email" placeholder="you@example.com"></label><label>Message<textarea rows="3" placeholder="How can we help?"></textarea></label><button class="btn btn-primary" type="submit">Submit ↗</button><p class="form-message"></p></form></div></section>
-</main>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({ once: true, offset: 80, duration: 850 });
+    </script>
+    <script src="script.js"></script>
+    
+<script>
+  document
+    .getElementById("contactForm")
+    .addEventListener("submit", function (event) {
+      event.preventDefault();
 
-<footer class="site-footer">
-  <div class="container footer-grid">
-    <div class="footer-brand">
-      <div class="brand-symbol">♧</div>
-      <strong>SAGE SEVEN</strong>
-      <small>AESTHETICS &amp; ACADEMY</small>
-      <p>Modern aesthetics.<br>Meaningful confidence.</p>
-    </div>
-    <div><h4>Contact us</h4><p>+91 99400 04602<br>+91 99400 04608</p></div>
-    <div><h4>Location</h4><p>No. 55/50, Lakshmi Talkies Road,<br>Shenoy Nagar, Chennai - 600030.</p></div>
-    <div><h4>Reach us</h4><div class="socials"><a href="#">◎</a><a href="#">f</a><a href="#">◉</a></div></div>
-  </div>
-  <div class="container copyright">© 2026 Sage Seven Aesthetics &amp; Academy. All rights reserved.</div>
-</footer>
+      // Replace with your WhatsApp number
+      const whatsappNumber = "99400 04602";
 
-<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script><script>AOS.init({once:true,offset:80,duration:850});</script><script src="script.js"></script>
-</body></html>
+      // Get form values
+      const name = document.getElementById("name").value;
+      const treatment = document.getElementById("treatment").value;
+      const phone = document.getElementById("phone").value;
+      const email = document.getElementById("email").value;
+      const message = document.getElementById("message").value;
+
+      // Create WhatsApp message
+      const whatsappMessage = `
+New Treatment Enquiry
+
+Name: ${name}
+Treatment: ${treatment}
+Contact No: ${phone}
+Email: ${email}
+Message: ${message}
+      `;
+
+      // Encode message for WhatsApp
+      const encodedMessage = encodeURIComponent(whatsappMessage);
+
+      // Open WhatsApp
+      const whatsappURL =
+        "https://wa.me/" + whatsappNumber + "?text=" + encodedMessage;
+
+      window.open(whatsappURL, "_blank");
+    });
+</script>
+  </body>
+</html>
