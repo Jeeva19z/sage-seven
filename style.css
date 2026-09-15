@@ -1,4 +1,7 @@
-
+  html,
+body {
+  overflow-x: hidden;
+}
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
 
 :root{--green:#536c56;--sage:#a4b49b;--soft:#f6f4ed;--ink:#26382c;--muted:#6f786f;--white:#fff;--line:rgba(83,108,86,.25)}
